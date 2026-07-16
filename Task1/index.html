@@ -1,47 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 Structure</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: #ecf0f1;
+            padding: 15px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #2c3e50;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        main {
+            margin-top: 20px;
+        }
+
+        section {
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #777;
+            padding: 10px;
+        }
+
+    </style>
+
 </head>
+
 <body>
 
-    <header>
-        <h1>Welcome to HTML5</h1>
-    </header>
+    <div class="container">
 
-    <nav>
-        <a href="#">Home</a> |
-        <a href="#">About</a> |
-        <a href="#">Contact</a>
-    </nav>
+        <header>
+            <h1>HTML5 Structure Example</h1>
+            <p>Understanding Semantic HTML Elements</p>
+        </header>
 
-    <main>
-        <section>
-            <h2>About HTML5</h2>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+
+
+        <main>
+
+            <section>
+
+                <h2>Welcome to HTML5</h2>
+
+                <p>
+                    HTML5 provides semantic elements that help
+                    organize web page structure clearly.
+                </p>
+
+                <ul>
+                    <li>Header - Represents introductory content</li>
+                    <li>Nav - Represents navigation links</li>
+                    <li>Main - Represents main content</li>
+                    <li>Section - Groups related content</li>
+                    <li>Footer - Represents closing information</li>
+                </ul>
+
+            </section>
+
+        </main>
+
+
+        <footer>
             <p>
-                HTML5 is the latest version of HyperText Markup Language used to
-                create structured web pages.
+                Created as part of HTML Mastery Task 1 
             </p>
-        </section>
+        </footer>
 
-        <article>
-            <h2>Why Use Semantic Tags?</h2>
-            <p>
-                Semantic tags improve readability, accessibility, and SEO.
-            </p>
-        </article>
 
-        <aside>
-            <h3>Quick Note</h3>
-            <p>HTML5 introduced many semantic elements.</p>
-        </aside>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Sinchana M. All Rights Reserved.</p>
-    </footer>
+    </div>
 
 </body>
+
 </html>
